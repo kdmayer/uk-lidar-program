@@ -6,3 +6,12 @@ __pycache__/
 src/*
 !src/main.py
 !src/utils.py
+
+assets/*
+!assets/UK_Subset_5km_grid.geojson
+
+experimentation/*
+!experimentation/Subsample_UK_Grid.ipynb
+
+
+
