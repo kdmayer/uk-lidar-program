@@ -69,7 +69,7 @@ def download_tile(zipf, download=False, product_list=[],
 #        wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".grid-item-container")))
 #    except TimeoutException:
 #        if driver.find_element_by_css_selector( 'div.errorsContainer:nth-child(1)').is_displayed():
-#            raise Exception("The AOI Polygon uploaded exceeds the maximum number of vertices allowed. Use a less complex polygon The maximum vertex count is : 1000")
+#            raise Exception("The uk_raster Polygon uploaded exceeds the maximum number of vertices allowed. Use a less complex polygon The maximum vertex count is : 1000")
     E1 = driver.find_element(by=By.CSS_SELECTOR, value=".grid-item-container")
 
     if verbose: print('...waiting for available products to load') 

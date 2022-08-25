@@ -1,6 +1,22 @@
 # ea_lidar
 Python code to bulk download UK Environment Agency LiDAR data
 
+## Example Usage
+
+    main.py /Users/kevin/Projects/uk-lidar-program/assets/aoi/large_wrington.shp
+    --odir
+    /Users/kevin/Projects/uk-lidar-program/assets/output_tiles
+    --year
+    2019
+    --all-years
+    --open-browser
+    --browser
+    firefox
+    --verbose
+    --national
+
+## Original Usage
+
 ```
 usage: ea_lidar.py [-h] [--print-only] [--odir ODIR] [--year YEAR] [--all-years] [--open-browser] [--browser BROWSER] [--verbose] [--point-cloud] [--dsm] [--dtm] extent
 

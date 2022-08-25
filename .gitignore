@@ -3,15 +3,28 @@ __pycache__/
 *.csv
 .DS_Store
 
+geckodriver.log
+
 src/*
 !src/main.py
 !src/utils.py
 
-assets/*
-!assets/AOI/UK_Subset_5km_grid.geojson
+assets/aoi/*
+!large_wrington.dbf
+!large_wrington.prj
+!large_wrington.shp
+!large_wrington.shx
+
+assets/uk_raster/*
+!uk_subset_5km_raster.dbf
+!uk_subset_5km_raster.prj
+!uk_subset_5km_raster.shp
+!uk_subset_5km_raster.shx
+
+assets/output_tiles/*
 
 experimentation/*
-!experimentation/Subsample_UK_Grid.ipynb
+!experimentation/Subsample_UK_Raster.ipynb
 
 
 
