@@ -1,13 +1,18 @@
 import os
 import glob
 import geopandas as gp
-from zipfile import ZipFile
 
+from zipfile import ZipFile
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+
+from selenium.common.exceptions import NoSuchElementException, ElementNotInteractableException, TimeoutException
+
+import urllib.request
+from tqdm.auto import tqdm
 
 def download_tile(zipf, download=False, product_list=[],
                   verbose=True, download_dir=False, headless=True,

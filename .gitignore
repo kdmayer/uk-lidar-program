@@ -8,7 +8,7 @@ src/*
 !src/utils.py
 
 assets/*
-!assets/UK_Subset_5km_grid.geojson
+!assets/AOI/UK_Subset_5km_grid.geojson
 
 experimentation/*
 !experimentation/Subsample_UK_Grid.ipynb

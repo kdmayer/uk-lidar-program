@@ -1,10 +1,9 @@
-import os
 import uuid
-import glob
 import tempfile
-import geopandas as gp
-from zipfile import ZipFile
 import argparse
+
+from utils import *
+
 
 # some arguments
 parser = argparse.ArgumentParser()
