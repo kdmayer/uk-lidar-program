@@ -22,6 +22,7 @@ assets/uk_raster/*
 !uk_subset_5km_raster.shx
 
 assets/output_tiles/*
+!__init__.py
 
 experimentation/*
 !experimentation/Subsample_UK_Raster.ipynb
