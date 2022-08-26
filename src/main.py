@@ -4,7 +4,6 @@ import argparse
 
 from utils import *
 
-
 # some arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("extent", type=str, help="path to extent")

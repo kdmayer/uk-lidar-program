@@ -24,8 +24,11 @@ assets/uk_raster/*
 assets/output_tiles/*
 !__init__.py
 
+assets/test_output/*
+
 experimentation/*
 !experimentation/Subsample_UK_Raster.ipynb
+!experimentation/Minimum_Selenium_Example.ipynb
 
 
 
