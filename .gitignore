@@ -10,10 +10,10 @@ src/*
 !src/utils.py
 
 assets/aoi/*
-!large_wrington.dbf
-!large_wrington.prj
-!large_wrington.shp
-!large_wrington.shx
+!large-wrington.dbf
+!large-wrington.prj
+!large-wrington.shp
+!large-wrington.shx
 
 assets/uk_raster/*
 !uk_subset_5km_raster.dbf
