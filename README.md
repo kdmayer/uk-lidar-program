@@ -42,7 +42,7 @@ Python code to bulk download UK Environment Agency LiDAR data
 <!---
 ## Original usage
 
-    main.py ./assets/aoi/large_wrington.shp
+    old_main.py ./assets/aoi/large_wrington.shp
     --odir
     ./assets/output_tiles
     --year

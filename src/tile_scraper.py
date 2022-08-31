@@ -157,7 +157,7 @@ class TileScraper:
                         file_path = os.path.join(
                             self.output_dir,
                             self.aoi_zip_path.split("/")[-1][:-4]
-                            + "-"
+                            + "-" + str(year_to_be_downloaded) + "-"
                             + file_url.split("/")[-1],
                         )
 

@@ -6,10 +6,10 @@ import zipfile
 import os
 
 
-def compress_as_zip(aoi_file_path: str = None):
-    aoi_dir = dirname(os.path.abspath(aoi_file_path))
+def compress_as_zip(aoi_shp_file_path: str = None):
+    aoi_dir = dirname(os.path.abspath(aoi_shp_file_path))
 
-    aoi_name = aoi_file_path.split("/")[-1]
+    aoi_name = aoi_shp_file_path.split("/")[-1]
     aoi_name = aoi_name[:-4]
 
     zip_file_path = os.path.join(aoi_dir, aoi_name + ".zip")

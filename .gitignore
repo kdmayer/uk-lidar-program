@@ -11,7 +11,7 @@ src/*
 !src/tile_scraper.py
 
 legacy/*
-!legacy/main.py
+!legacy/old_maigit n.py
 !legacy/utils.py
 
 assets/aoi/*
