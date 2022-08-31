@@ -7,11 +7,10 @@ Python code to bulk download UK Environment Agency LiDAR data
 ## Usage
 
 1. Open src/main.py
-2. specify your configuration (below)
+2. Specify your configuration (below)
 3. Execute src/main.py
 
-
-    # Configuration
+## Configuration in src/main.py
 
     # HEADLESS = False will open browser visually
     HEADLESS = False
