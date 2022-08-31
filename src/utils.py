@@ -20,8 +20,11 @@ def compress_as_zip(aoi_file_path: str = None):
         if file.split(".")[0] == aoi_name:
             list_of_aoi_files.append(os.path.join(aoi_dir, file))
 
-    with zipfile.ZipFile(zip_file_path, 'w') as zipMe:
-        [zipMe.write(file, compress_type=zipfile.ZIP_DEFLATED) for file in list_of_aoi_files]
+    with zipfile.ZipFile(zip_file_path, "w") as zipMe:
+        [
+            zipMe.write(file, compress_type=zipfile.ZIP_DEFLATED)
+            for file in list_of_aoi_files
+        ]
 
     return zip_file_path
 
@@ -35,6 +38,6 @@ class DownloadProgressBar(tqdm):
 
 def download_url(file_url, file_path):
     with DownloadProgressBar(
-            unit="B", unit_scale=True, miniters=1, desc=file_url.split("/")[-1]
+        unit="B", unit_scale=True, miniters=1, desc=file_url.split("/")[-1]
     ) as t:
         urllib.request.urlretrieve(file_url, filename=file_path, reporthook=t.update_to)
